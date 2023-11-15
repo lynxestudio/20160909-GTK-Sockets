@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Samples.GtkNetworking.Server/MainWindowServer.cs">
+    <Files>
+      <File FileName="Samples.GtkNetworking.Server/MainWindowServer.cs" Line="105" Column="40" />
+      <File FileName="Samples.GtkNetworking.Server/Program.cs" Line="4" Column="39" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
