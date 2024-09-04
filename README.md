@@ -1,4 +1,4 @@
-# Entendiendo la programación de Sockets con GTK# y .NET
+# Entendiendo la programación de Sockets TCP con C#
 
 <h1>¿Qué son los sockets?</h1>
 <p align="justify">
@@ -12,7 +12,7 @@ Este comando solicita una conexión desde un puerto aleatorio en el cliente (por
 </p>
 <div><b>Fig 1 Una comunicación utilizando números de puerto para transmitir datos.</b></div><br>
 <div>
-  <IMG src="picture_library/sockets/Socket.png"></div><br>
+  <IMG src="images/Socket.png"></div><br>
 <p align="justify">
   Históricamente los <b>sockets</b> son una API (Application Programming Interface) de programación estándar utilizada para construir aplicaciones de red que vienen desde el sistema UNIX BSD. Esta interface de programación para la capa 4 del modelo OSI (OSI Model Layer 4) permite a un programador tratar una conexión de red como un flujo de bytes que puede escribirse o leerse sin demasiada complejidad. Con un <b>socket</b> se pueden realizar siete operaciones básicas:
 <ol>
@@ -31,7 +31,7 @@ Los <b>Stream Sockets</b> son ideales para transmitir grandes volúmenes de info
 <p align="justify">Los <b>Datagram Sockets</b> son apropiados para transferencias de datos cortas, rápidas y sin necesidad de un chequeo de errores. Los desarrolladores de aplicaciones los prefieren por ser rápidos y muy fáciles de programar.</p>
 <div><b>Fig 2 Tipos de Socket</b></div><br>
 <div>
-<IMG src="picture_library/sockets/protocolsType.png"></div><br>
+<IMG src="images/protocolsType.png"></div><br>
  <p align="justify">
  El Framework .NET posee las clases de alto y bajo nivel que encapsulan la funcionalidad de un Socket (tanto TCP como UDP) para construir aplicaciones de red con relativa facilidad y sin preocuparse por todo el intricado mecanismo de comunicación que necesitaría muchas líneas de código.
 La siguiente lista describe las clases principales:
@@ -52,11 +52,11 @@ La siguiente lista describe las clases principales:
     </p>
       <div><b>Fig 3 Ejemplo de un servidor TCP con una GUI GTK#.</b></div><br>
      <div>
-     <IMG src="picture_library/sockets/fig1.png">
+     <IMG src="images/fig1.png">
      </div><br>
       <div><b>Fig 4 Ejemplo de un cliente TCP con una GUI GTK#.</b></div><br>
      <div>
-     <IMG src="picture_library/sockets/fig2.png">
+     <IMG src="images/fig2.png">
      </div><br>
     <h3>Pasos para la construcción de un Servidor TCP GTK#</h3>
     <p align="justify">El proyecto del servidor TCP GTK# se compone de 2 clases:
@@ -171,17 +171,17 @@ Ambos proyectos utilizan la clase TcpFlags, la cual pretende ilustrar básicamen
 <div>A continuación unas imágenes del cliente y servidor comunicándose entre si.</div>
 <div><b>Fig 5 Enviando un mensaje desde el cliente al servidor.</b></div><br>
 <div>
-<IMG src="picture_library/sockets/fig3.png">
+<IMG src="images/fig3.png">
 </div><br>
 <div><b>Fig 6 Recibiendo el mensaje del cliente.</b></div><br>
 <div>
-<IMG src="picture_library/sockets/fig4.png">
+<IMG src="images/fig4.png">
 </div><br>
 <div><b>Fig 7 Enviándole un mensaje al cliente desde el servidor.</b></div><br>
  <div>
- <IMG src="picture_library/sockets/fig5.png">
+ <IMG src="images/fig5.png">
  </div><br>
  <div><b>Fig 8 Desconectándose del servidor.</b></div><br>
  <div>
- <IMG src="picture_library/sockets/fig7.png">
+ <IMG src="images/fig7.png">
  </div>
