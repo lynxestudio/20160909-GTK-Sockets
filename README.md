@@ -177,19 +177,19 @@ Ambos proyectos utilizan la clase TcpFlags, la cual pretende ilustrar básicamen
  <div>
  <IMG src="images/fig6.png">
  </div>
-  <div><b>Fig 5 .</b></div><br>
+  <div><b>Fig 5 Respondiendo al cliente con un mensaje.</b></div><br>
  <div>
  <IMG src="images/fig7.png">
  </div>
-  <div><b>Fig 6 .</b></div><br>
+  <div><b>Fig 6 Recibiendo la respuesta del cliente.</b></div><br>
  <div>
  <IMG src="images/fig8.png">
  </div>
-  <div><b>Fig 7 .</b></div><br>
+  <div><b>Fig 7 Desconectandose del servidor.</b></div><br>
  <div>
  <IMG src="images/fig9.png">
  </div>
-   <div><b>Fig 8 .</b></div><br>
+   <div><b>Fig 8 Recibiendo el mensaje de desconexion del cliente.</b></div><br>
  <div>
  <IMG src="images/fig10.png">
  </div>
