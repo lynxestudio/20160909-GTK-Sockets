@@ -169,15 +169,15 @@ connection.Close();
 Ambos proyectos utilizan la clase TcpFlags, la cual pretende ilustrar básicamente como son las banderas TCP, que utiliza la capa de transporte (layer 4) para manejar la comunicación entre dos máquinas.
 </p>
 <div>A continuación unas imágenes del cliente y servidor comunicándose entre si.</div>
-<div><b>Fig 3 .</b></div><br>
+<div><b>Fig 3 Enviando un mensaje al servidor..</b></div><br>
  <div>
  <IMG src="images/fig5.png">
  </div><br>
- <div><b>Fig 4 Enviando un mensaje al servidor.</b></div><br>
+ <div><b>Fig 4 Recibiendo el mensaje del cliente</b></div><br>
  <div>
  <IMG src="images/fig6.png">
  </div>
-  <div><b>Fig 5 Recibiendo el mensaje del cliente.</b></div><br>
+  <div><b>Fig 5 .</b></div><br>
  <div>
  <IMG src="images/fig7.png">
  </div>
