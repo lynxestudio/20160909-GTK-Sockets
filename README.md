@@ -52,11 +52,11 @@ La siguiente lista describe las clases principales:
     </p>
       <div><b>Fig 3 Ejemplo de un servidor TCP con una GUI GTK#.</b></div><br>
      <div>
-     <IMG src="images/fig1.png">
+     <IMG src="images/fig3.png">
      </div><br>
       <div><b>Fig 4 Ejemplo de un cliente TCP con una GUI GTK#.</b></div><br>
      <div>
-     <IMG src="images/fig2.png">
+     <IMG src="images/fig4.png">
      </div><br>
     <h3>Pasos para la construcción de un Servidor TCP GTK#</h3>
     <p align="justify">El proyecto del servidor TCP GTK# se compone de 2 clases:
@@ -169,14 +169,6 @@ connection.Close();
 Ambos proyectos utilizan la clase TcpFlags, la cual pretende ilustrar básicamente como son las banderas TCP, que utiliza la capa de transporte (layer 4) para manejar la comunicación entre dos máquinas.
 </p>
 <div>A continuación unas imágenes del cliente y servidor comunicándose entre si.</div>
-<div><b>Fig 5 .</b></div><br>
-<div>
-<IMG src="images/fig3.png">
-</div><br>
-<div><b>Fig 6 .</b></div><br>
-<div>
-<IMG src="images/fig4.png">
-</div><br>
 <div><b>Fig 7 .</b></div><br>
  <div>
  <IMG src="images/fig5.png">
