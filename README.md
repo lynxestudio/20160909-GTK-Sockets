@@ -50,11 +50,11 @@ La siguiente lista describe las clases principales:
     <p align="justify">
       Para demostrar estos conceptos escribí dos programas: el de un servidor y el de un cliente TCP. Ambos utilizan una interfaz de usuario (GUI) en GTK# para comunicarse entre ellos mediante mensajes de texto.
     </p>
-      <div><b>Fig 3 Ejemplo de un servidor TCP con una GUI GTK#.</b></div><br>
+      <div><b>Fig 1. Ejemplo de un servidor TCP con una GUI GTK#.</b></div><br>
      <div>
      <IMG src="images/fig3.png">
      </div><br>
-      <div><b>Fig 4 Ejemplo de un cliente TCP con una GUI GTK#.</b></div><br>
+      <div><b>Fig 2. Ejemplo de un cliente TCP con una GUI GTK#.</b></div><br>
      <div>
      <IMG src="images/fig4.png">
      </div><br>
@@ -169,27 +169,27 @@ connection.Close();
 Ambos proyectos utilizan la clase TcpFlags, la cual pretende ilustrar básicamente como son las banderas TCP, que utiliza la capa de transporte (layer 4) para manejar la comunicación entre dos máquinas.
 </p>
 <div>A continuación unas imágenes del cliente y servidor comunicándose entre si.</div>
-<div><b>Fig 7 .</b></div><br>
+<div><b>Fig 3 .</b></div><br>
  <div>
  <IMG src="images/fig5.png">
  </div><br>
- <div><b>Fig 8 .</b></div><br>
+ <div><b>Fig 4 Enviando un mensaje al servidor.</b></div><br>
  <div>
  <IMG src="images/fig6.png">
  </div>
-  <div><b>Fig 9 .</b></div><br>
+  <div><b>Fig 5 Recibiendo el mensaje del cliente.</b></div><br>
  <div>
  <IMG src="images/fig7.png">
  </div>
-  <div><b>Fig 10 .</b></div><br>
+  <div><b>Fig 6 .</b></div><br>
  <div>
  <IMG src="images/fig8.png">
  </div>
-  <div><b>Fig 11 .</b></div><br>
+  <div><b>Fig 7 .</b></div><br>
  <div>
  <IMG src="images/fig9.png">
  </div>
-   <div><b>Fig 12 .</b></div><br>
+   <div><b>Fig 8 .</b></div><br>
  <div>
  <IMG src="images/fig10.png">
  </div>
